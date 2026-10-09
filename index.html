@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111210">
+  <meta name="description" content="Support and privacy information for STILL., a 30-second stillness timer for iPhone.">
+  <title>STILL. — Support</title>
+  <style>
+    :root { color-scheme: dark; --bg:#111210; --fg:#e5e4dc; --muted:#92928b; --line:#393a36; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace; }
+    main { width:min(100% - 40px,720px); margin:clamp(48px,12vh,120px) auto 72px; }
+    header { display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid var(--line); padding-bottom:18px; }
+    .brand { font-size:24px; letter-spacing:.22em; }
+    .label, h2 { font-size:13px; letter-spacing:.16em; text-transform:uppercase; }
+    h1 { margin:56px 0 12px; font-size:clamp(30px,7vw,48px); font-weight:400; line-height:1.15; }
+    .intro { color:var(--muted); max-width:58ch; }
+    section { margin-top:52px; border-top:1px solid var(--line); padding-top:18px; }
+    h2 { margin:0 0 14px; color:var(--muted); font-weight:400; }
+    p { margin:0 0 14px; }
+    a { color:var(--fg); text-underline-offset:4px; }
+    footer { margin-top:64px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    @media (prefers-reduced-motion: reduce) { * { scroll-behavior:auto !important; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header><span class="brand">STILL.</span><span class="label">SUPPORT</span></header>
+    <h1>Support</h1>
+    <p class="intro">STILL. is a small, offline practice in holding your iPhone steady for 30 seconds.</p>
+
+    <section>
+      <h2>Measurement</h2>
+      <p>STILL. needs an iPhone with motion sensors. Keep the app open and the screen unlocked during a session. Switching apps, locking the screen, or interrupted sensor readings ends the measurement.</p>
+    </section>
+
+    <section>
+      <h2>Records and sharing</h2>
+      <p>Saved records stay on your iPhone. Open HISTORY to delete individual records or clear the history. When you choose SHARE IMAGE, iOS opens the share sheet so you can choose where the image goes.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For help or to report a problem, open an issue on <a href="https://github.com/izanapi/still-support/issues">GitHub</a>.</p>
+    </section>
+
+    <footer><a href="privacy.html">Privacy policy</a></footer>
+  </main>
+</body>
+</html>
